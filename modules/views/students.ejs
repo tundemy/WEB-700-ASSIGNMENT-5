@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Students</title>
+</head>
+<body>
+    <h1>List of Students</h1>
+    <ul>
+        <% students.forEach(function(student) { %>
+            <li><%= student.firstName %> <%= student.lastName %> - <%= student.email %> - GPA: <%= student.gpa %> - Course: <%= student.course %></li>
+        <% }); %>
+    </ul>
+</body>
+</html>

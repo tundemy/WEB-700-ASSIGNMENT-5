@@ -1,0 +1,48 @@
+/* Elegant Dark Theme */
+
+/* Background color and text color for body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: hwb(180 30% 33% / 0.452);
+    color: #ffffff;
+}
+
+/* Container max width and alignment */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Navbar styling */
+.navbar {
+    background-color: hwb(0 4% 95% / 0.267);
+}
+
+/* Navbar brand font size and weight */
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Navbar links color and hover effect */
+.navbar-nav .nav-link {
+    color: #b82222;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #cd0909;
+    background-color: #6a0c0c;
+}
+
+/* Primary button styling */
+.btn-primary {
+    background-color: #0066cc;
+    color: #4f89ee;
+    border: none;
+    border-radius: 4px;
+}
+
+.btn-primary:hover {
+    background-color: #0052a3;
+}
+
